@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: D./Work/coji/app/libs/coji-library.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/coji-library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

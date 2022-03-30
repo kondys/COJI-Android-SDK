@@ -157,7 +157,7 @@ public class ConnectFragment extends CojiBaseFragment {
     }
 
     private void updateCojiList(){
-        robotNameList = new ArrayList();
+        robotNameList = new ArrayList<String>();
         for (CojiRobot robot : (List<CojiRobot>)CojiRobotFinder.getInstance().getCojiFoundList()) {
             robotNameList.add(robot.getName());
         }

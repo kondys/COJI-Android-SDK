@@ -1,6 +1,6 @@
 package com.wowwee.coji_android_sampleproject.com.wowwee.coji_android_sampleproject.fragment;
 
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import com.wowwee.bluetoothrobotcontrollib.coji.CojiRobot;
 import com.wowwee.bluetoothrobotcontrollib.coji.CojiRobotConstant;

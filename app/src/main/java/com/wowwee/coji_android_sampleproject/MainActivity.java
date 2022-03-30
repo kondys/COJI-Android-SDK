@@ -1,7 +1,8 @@
 package com.wowwee.coji_android_sampleproject;
 
+import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
-import android.support.v7.app.ActionBarActivity;
+import androidx.appcompat.app.ActionBar;
 import android.os.Bundle;
 import android.view.WindowManager;
 
@@ -11,9 +12,12 @@ import com.wowwee.bluetoothrobotcontrollib.coji.CojiRobotFinder;
 import com.wowwee.coji_android_sampleproject.com.wowwee.coji_android_sampleproject.fragment.ConnectFragment;
 import com.wowwee.coji_android_sampleproject.utils.FragmentHelper;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+
 import java.util.List;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
